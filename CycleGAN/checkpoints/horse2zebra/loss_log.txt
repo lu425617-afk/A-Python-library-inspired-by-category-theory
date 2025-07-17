@@ -1,0 +1,6 @@
+================ Training Loss (Sat Apr 19 19:21:44 2025) ================
+(epoch: 1, iters: 100, time: 17.178, data: 4.465) D_A: 0.327 G_A: 0.323 cycle_A: 2.832 idt_A: 2.231 D_B: 0.272 G_B: 0.307 cycle_B: 5.254 idt_B: 1.394 
+(epoch: 1, iters: 200, time: 13.065, data: 0.001) D_A: 0.490 G_A: 0.439 cycle_A: 3.971 idt_A: 1.175 D_B: 0.440 G_B: 0.568 cycle_B: 2.426 idt_B: 1.330 
+(epoch: 1, iters: 300, time: 14.124, data: 0.001) D_A: 0.217 G_A: 0.330 cycle_A: 1.913 idt_A: 1.071 D_B: 0.291 G_B: 0.299 cycle_B: 2.670 idt_B: 1.149 
+(epoch: 1, iters: 400, time: 15.354, data: 0.001) D_A: 0.301 G_A: 0.581 cycle_A: 2.235 idt_A: 1.243 D_B: 0.275 G_B: 0.215 cycle_B: 3.026 idt_B: 1.169 
+(epoch: 1, iters: 500, time: 11.585, data: 0.001) D_A: 0.345 G_A: 0.537 cycle_A: 3.179 idt_A: 1.909 D_B: 0.276 G_B: 0.164 cycle_B: 4.341 idt_B: 1.475 

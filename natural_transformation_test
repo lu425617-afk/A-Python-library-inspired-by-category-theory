@@ -1,0 +1,15 @@
+// Natural Transformation
+digraph {
+	F_A [label="F(A)" color=lightblue shape=circle]
+	G_A [label="G(A)" color=lightgreen shape=circle]
+	F_B [label="F(B)" color=lightblue shape=circle]
+	G_B [label="G(B)" color=lightgreen shape=circle]
+	F_A -> G_A [label="η_A: id_A" color=red style=dashed]
+	F_B -> G_B [label="η_B: id_B" color=red style=dashed]
+	F_A -> F_B [label=f color=blue]
+	G_A -> G_B [label=f color=green]
+	F_A -> F_A [label=id_A color=blue]
+	G_A -> G_A [label=id_A color=green]
+	F_B -> F_B [label=id_B color=blue]
+	G_B -> G_B [label=id_B color=green]
+}

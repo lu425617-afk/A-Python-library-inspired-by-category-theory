@@ -1,0 +1,10 @@
+// Category Quiver
+digraph {
+	node [color=lightgreen shape=circle style=filled]
+	A [label=A]
+	B [label=B]
+	C [label=C]
+	A -> B [label=f color=red penwidth=2 style=solid]
+	A -> C [label=h color=red penwidth=2 style=solid]
+	B -> C [label=g color=blue style=solid]
+}

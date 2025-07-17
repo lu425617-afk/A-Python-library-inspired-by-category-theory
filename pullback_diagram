@@ -1,0 +1,11 @@
+// Category Diagram
+digraph {
+	X [label=X]
+	Y [label=Y]
+	Z [label=Z]
+	PullbackObject [label=PullbackObject]
+	X -> Z [label="f: X→Z"]
+	Y -> Z [label="g: Y→Z"]
+	PullbackObject -> X [label="η_X"]
+	PullbackObject -> Y [label="η_Y"]
+}

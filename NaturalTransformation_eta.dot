@@ -1,0 +1,27 @@
+// Natural Transformation Visualization
+digraph {
+	rankdir=LR
+	nodesep=1.5 ranksep=3.0
+	node [shape=circle]
+	F_A [label="F(A) = X" color=lightblue]
+	F_B [label="F(B) = Y" color=lightblue]
+	G_A [label="G(A) = X" color=lightgreen]
+	G_B [label="G(B) = Y" color=lightgreen]
+	F_A -> F_B [label=g color=blue]
+	F_A -> F_A [label=id_X color=blue]
+	F_B -> F_B [label=id_Y color=blue]
+	G_A -> G_B [label=g color=green]
+	G_A -> G_A [label=id_X color=green]
+	G_B -> G_B [label=id_Y color=green]
+	F_A -> G_A [label="η_A: id_X" color=red style=dashed]
+	F_B -> G_B [label="η_B: id_Y" color=red style=dashed]
+	subgraph cluster_legend {
+		color=black label=Legend style=dashed
+		legend_F [label="F(morphism)" shape=plaintext]
+		legend_G [label="G(morphism)" shape=plaintext]
+		legend_eta [label="Natural Transformation" shape=plaintext]
+		legend_F -> legend_G [label="" color=blue style=solid]
+		legend_G -> legend_eta [label="" color=green style=solid]
+		legend_F -> legend_eta [label="" color=red style=dashed]
+	}
+}

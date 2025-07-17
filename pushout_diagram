@@ -1,0 +1,11 @@
+// Category Diagram
+digraph {
+	X [label=X]
+	Y [label=Y]
+	Z [label=Z]
+	PushoutObject [label=PushoutObject]
+	Z -> X [label="f: Z→X"]
+	Z -> Y [label="g: Z→Y"]
+	PushoutObject -> X [label="η_X"]
+	PushoutObject -> Y [label="η_Y"]
+}

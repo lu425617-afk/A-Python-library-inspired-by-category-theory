@@ -1,0 +1,15 @@
+// Natural Transformation Visualization
+digraph {
+	F_A [label="F(A)" color=lightblue shape=circle]
+	G_A [label="G(A)" color=lightgreen shape=circle]
+	F_B [label="F(B)" color=lightblue shape=circle]
+	G_B [label="G(B)" color=lightgreen shape=circle]
+	F_A -> F_B [label=f color=blue style=solid]
+	G_A -> G_B [label=f color=green style=solid]
+	F_A -> F_A [label=id_A color=blue style=solid]
+	G_A -> G_A [label=id_A color=green style=solid]
+	F_B -> F_B [label=id_B color=blue style=solid]
+	G_B -> G_B [label=id_B color=green style=solid]
+	F_B -> F_A [label=f_inv color=blue style=solid]
+	G_B -> G_A [label=f_inv color=green style=solid]
+}

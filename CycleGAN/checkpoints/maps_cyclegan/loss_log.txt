@@ -1,0 +1,15 @@
+================ Training Loss (Fri Mar 21 17:05:42 2025) ================
+================ Training Loss (Fri Mar 21 17:08:35 2025) ================
+================ Training Loss (Fri Mar 21 17:11:20 2025) ================
+================ Training Loss (Fri Mar 21 17:20:28 2025) ================
+================ Training Loss (Fri Mar 21 17:21:49 2025) ================
+================ Training Loss (Fri Mar 21 17:24:01 2025) ================
+(epoch: 1, iters: 100, time: 11.777, data: 3.408) D_A: 0.414 G_A: 0.396 cycle_A: 2.032 idt_A: 0.574 D_B: 0.465 G_B: 0.672 cycle_B: 1.050 idt_B: 0.897 
+(epoch: 1, iters: 200, time: 9.172, data: 0.001) D_A: 0.299 G_A: 0.390 cycle_A: 1.388 idt_A: 0.447 D_B: 0.426 G_B: 0.242 cycle_B: 0.944 idt_B: 0.633 
+(epoch: 1, iters: 300, time: 10.625, data: 0.001) D_A: 0.269 G_A: 0.316 cycle_A: 1.692 idt_A: 0.430 D_B: 0.197 G_B: 0.213 cycle_B: 0.965 idt_B: 0.743 
+(epoch: 1, iters: 400, time: 10.502, data: 0.001) D_A: 0.247 G_A: 0.413 cycle_A: 1.872 idt_A: 0.258 D_B: 0.500 G_B: 0.438 cycle_B: 0.600 idt_B: 0.909 
+(epoch: 1, iters: 500, time: 12.379, data: 0.001) D_A: 0.244 G_A: 0.287 cycle_A: 1.706 idt_A: 0.958 D_B: 0.183 G_B: 0.840 cycle_B: 2.214 idt_B: 0.819 
+(epoch: 1, iters: 600, time: 10.880, data: 0.001) D_A: 0.230 G_A: 0.422 cycle_A: 2.316 idt_A: 0.217 D_B: 0.275 G_B: 0.247 cycle_B: 0.418 idt_B: 1.254 
+================ Training Loss (Fri Mar 21 20:26:21 2025) ================
+================ Training Loss (Fri Mar 21 20:29:04 2025) ================
+================ Training Loss (Fri Mar 21 20:30:24 2025) ================

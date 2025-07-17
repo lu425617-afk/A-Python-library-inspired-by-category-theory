@@ -1,0 +1,9 @@
+// Category Diagram
+digraph {
+	X [label=X]
+	Y [label=Y]
+	EqualizerObject [label=EqualizerObject]
+	X -> Y [label="f: X→Y"]
+	X -> Y [label="g: X→Y"]
+	EqualizerObject -> X [label="e: EqualizerObject→X"]
+}
